@@ -1,11 +1,11 @@
 :root {
-    --footer-header-color: ;
-    --main-section-color: ;
+    --footer-header-color: #874B2D;
+    --main-section-color: #AB5F39;
     --dialog-color: ;
     --comment-section-color: ;
     --copyright-color: ;
     --h1-font-color: ;
     --h2-font-color: ;
     --h3-font-color: ;
-    --main-font-color: ;
+    --main-font-color: #292929;
 }
