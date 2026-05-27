@@ -1,14 +1,15 @@
-body {
+body {}
 
-}
-
+/* HEADER */
 header img {
     width: 50px;
     height: 50px;
 }
 
 header h2 {
-    
+    font-family: 'Jim Nightshade';
+    font-size: 2.5rem;
+    color: var(--h2-font-color);
 }
 
 header {
@@ -18,4 +19,40 @@ header {
     gap: 10px;
     height: 80px;
     background-color: var(--footer-header-color);
+}
+
+/* MAIN */
+main {
+    background-color: var(--main-section-color);
+    width: 100%;
+    height: 100dvh;
+    gap: 80px;
+}
+
+main h1 {
+    font-family: 'Aclonica';
+    font-size: 2.5rem;
+    color: var(--h1-font-color);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--footer-header-color);
+    height: 80px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: var(--impressum-datenschutz-color);
+}
+
+footer p {
+    color: var(--copyright-color);
 }
