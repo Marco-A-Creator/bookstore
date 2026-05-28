@@ -14,25 +14,24 @@
     <link rel="stylesheet" href="./style.css">
 
     <script src="./scripts/templates.js"></script>
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 
 <body>
     <header>
         <img src="assets/img/Book_Store_Logo.png" alt="Grindelwalds BookStore Logo">
-        <h2>Grindelwalds BookStore</h2>
+        <h1>Grindelwalds BookStore</h1>
     </header>
 
-    <main>
-        <h1>Welcome to Grindelwalds BookStore</h1>
-        
-        <section id="book-list">
-            <h2>Our Collection</h2>
-            <div class="books-container">
-                <!-- Book items will be dynamically inserted here -->
-            </div>
-        </section>
-    </main>
+    <main id="book-list">
+
+    <h2>Our Collection</h2>
+
+    <div class="books-container" id="booksContainer">
+        <!-- Bücher werden hier eingefügt -->
+    </div>
+
+</main>
 
     <footer>
         <div>

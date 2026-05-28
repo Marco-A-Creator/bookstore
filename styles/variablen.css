@@ -1,8 +1,10 @@
 :root {
     --footer-header-color: #874B2D;
     --main-section-color: #AB5F39;
-    --dialog-color: ;
-    --comment-section-color: ;
+    --card-color: #874B2D;
+    --comment-section-color: #e99b74;
+    --like-section-color: #e99b74;
+    --img-section-color: #e99b74;
     --impressum-datenschutz-color: #311d04;
     --copyright-color: #292929;
     --h1-font-color: ;

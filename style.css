@@ -4,10 +4,10 @@ header img {
     height: 50px;
 }
 
-header h2 {
+header h1 {
     font-family: 'Jim Nightshade';
     font-size: 2.5rem;
-    color: var(--h2-font-color);
+    color: var(--h1-font-color);
 }
 
 header {
@@ -23,14 +23,17 @@ header {
 main {
     background-color: var(--main-section-color);
     width: 100%;
-    height: 100dvh;
+    height: 3500px;
     gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-main h1 {
+main h2 {
     font-family: 'Aclonica';
     font-size: 2.5rem;
-    color: var(--h1-font-color);
+    color: var(--h2-font-color);
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -53,4 +56,111 @@ footer a {
 
 footer p {
     color: var(--copyright-color);
+}
+
+
+/* BOOK CARD */
+.book-card {
+    background: var(--card-color);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+    width: 310px;
+    max-width: 100%;
+    height: auto;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-image {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    background: var(--img-section-color);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.author {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.info {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.like-btn {
+    width: 100%;
+    background: crimson;
+    color: var(--like-section-color);
+}
+
+.comment-btn {
+    width: 100%;
+    background: rgb(78, 97, 153);
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.comment {
+    background: var(--comment-section-color);
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.username {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
 }
